@@ -78,6 +78,8 @@ function start(client) {
         }
         console.log(message);
         var msjwp = message.body;
+
+        console.log(msjwp + "este es el msj a ver si jala");
         var number = message.from
 
         var name = message.notifyName
@@ -118,7 +120,7 @@ function start(client) {
         const busquedaOpciones = opciones.rows
         console.log(busquedaOpciones);
         let mapOpciones = busquedaOpciones.map((q) => q.clave)
-        console.log(mapOpciones);
+        console.log(mapOpciones[0]);
 
         if (message.type === 'chat') {
             if (message.body === 'backup_db' && message.isGroupMsg === false) {
