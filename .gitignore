@@ -1,0 +1,3 @@
+bot-whatsaap-node/node_modules/
+bot-whatsaap-node/backup/*.sql
+bot-whatsaap-node/test.js
