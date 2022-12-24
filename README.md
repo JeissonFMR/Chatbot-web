@@ -12,7 +12,7 @@ HOW TO USE
 1. CREATE DATABASE IN POSTGRESQL WITH NAME bot-proyectme AND YOU MUST CONFIGURE IT IN interfaz-django/Proyect-Folder/interfazBot/settings.py  AND IN bot-whatsaap-node/app.js 
 
 2. EXECUTE DJANGO
-  • python3 manage.py makemigratios
+  • python3 manage.py makemigrations
   • python3 manage.py migrate
   • python3 manage.py runserver
   
