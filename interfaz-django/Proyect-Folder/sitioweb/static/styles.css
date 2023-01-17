@@ -1,0 +1,75 @@
+body {
+    background-image: url("layered-waves-haikei.svg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+th {
+    color: aliceblue;
+}
+
+td {
+    color: aliceblue;
+}
+
+table {
+    text-align: center;
+}
+
+
+#btn-eliminar {
+    color: #ffffff;
+    background-color: #ff0202;
+    text-shadow: 0px 0px 9px #ffffff;
+}
+
+#btn-editar {
+    color: #ffffff;
+    background-color: #016ADB;
+    text-shadow: 0px 0px 9px #ffffff;
+
+}
+
+
+#btn-editar:hover {
+    box-shadow: 5px 5px 5px #016ADB;
+
+}
+
+#btn-eliminar:hover {
+    box-shadow: 5px 5px 5px #ff0202;
+}
+
+header {
+    text-align: center;
+    color: white;
+    filter: drop-shadow(5px 5px 5px white);
+}
+
+.github {
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    filter: drop-shadow(5px 5px 5px white);
+}
+
+.btn-success {
+    margin-left: 45%;
+}
+
+table {
+    background-color: #7a7a76;
+}
+
+table:hover {
+    filter: drop-shadow(5px 5px 5px white);
+}
+
+#nuevo_p {
+    background-color: #0c8433;
+}
